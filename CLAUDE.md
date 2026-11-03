@@ -1,4 +1,4 @@
-# transcricao
+﻿# transcricao
 
 Script Python que transcreve vídeos/áudios **localmente** com [faster-whisper](https://github.com/SYSTRAN/faster-whisper). Aceita arquivos, pastas e links (YouTube etc., via yt-dlp).
 
@@ -6,6 +6,7 @@ Script Python que transcreve vídeos/áudios **localmente** com [faster-whisper]
 - `transcrever.py` — CLI única (entradas → download se URL → transcrição → escritor do formato).
 - `transcrever.bat` — atalho que usa o `.venv`; dá pra arrastar vídeos/pastas em cima.
 - `requirements.txt` — `faster-whisper`, `yt-dlp`, `av>=16,<17`.
+- `README.md` — guia de uso público (GitHub). Atualizar junto quando mudar opções/comportamento.
 - Gerados (no `.gitignore`): `.venv/`, `_downloads/` (áudios baixados de links), `saida/` (transcrições de links).
 
 ## Uso
