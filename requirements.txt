@@ -1,0 +1,4 @@
+faster-whisper
+yt-dlp
+# faster-whisper 1.2.x usa av.open(metadata_errors=...), removido no PyAV 17+
+av>=16,<17

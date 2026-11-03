@@ -1,0 +1,4 @@
+.venv/
+saida/
+_downloads/
+__pycache__/
